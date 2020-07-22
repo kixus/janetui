@@ -36,7 +36,7 @@ main.c
 )
 
 # Get the header ui.h
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/libui)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/libui /opt/local/solus/install/janet/v1.11.0/include/janet)
 
 # Build libui as static library
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "")
